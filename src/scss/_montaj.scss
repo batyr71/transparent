@@ -1,0 +1,33 @@
+.montaj-banner{
+  img {
+    width: 100%;
+  }
+}
+.montaj-main {
+  color: white;
+  background: turquoise;
+  display: flex;
+}
+
+.montaj-aside {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.montaj-link{
+
+}
+
+.montaj-text {
+  width: 65%;
+}
+
+.montaj-bottom{
+  color: white;
+}
+
+.montaj-icon{
+  width: 64px;
+  height: 64px;
+}

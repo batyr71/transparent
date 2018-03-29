@@ -1,0 +1,245 @@
+.video-view {
+  position: relative;
+  overflow: hidden;
+  height: 1000px;
+}
+
+.video-main {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 45px auto;
+  img {
+      max-width: 100%;
+  }
+}
+
+.addnext {
+  left: -333px;
+}
+
+@media (min-width: 600px) {
+  .video-main {
+      color: white;
+  }
+}  
+
+.video-row {
+  display: flex;
+  width: 1200px;
+}
+.video-presentation {
+    flex: 1 0 333px;
+    border-right: 1.5px dotted #666666;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p {
+      color: #666;
+    }
+    h3 {
+      font-size: 12px;
+      color: #f4ce64;
+    }
+    opacity: 0.6;
+    &:hover {
+      opacity: 1;
+    }
+}
+
+
+.video-controls {
+  color: white;
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin: 15px 0;
+  padding: 45px 0;
+  border-bottom: 1px solid #666;
+}
+
+
+.next, .prev {
+  position: absolute;
+  color: rgb(179, 179, 179);
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.next {
+  right: 0;
+  display: flex;
+  align-items: center;
+  p{
+    margin-left: 10px;
+  }
+}
+
+.prev {
+  left: 0;
+}
+
+.dont {
+  display: none
+}
+
+
+
+body {
+  background-color: black;
+}
+.inner {
+  width: 7px;
+  height: 7px;
+  background-color: white;
+  transition: opacity 10s ease;
+  opacity: 0.5;
+}
+
+.kvadratik {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 25px;
+  height: 27px;
+}
+.d1 {
+    animation: d1 2s infinite;
+}
+
+.d2 {
+    animation: d2 2s infinite;
+}
+
+.d3 {
+    animation: d3 2s infinite;
+}
+
+.d4 {
+    animation: d4 2s infinite;
+}
+
+.d5 {
+    animation: d5 2s infinite;
+}
+
+.d6 {
+    animation: d6 2s infinite;
+}
+
+.d7 {
+    animation: d7 2s infinite;
+}
+
+.d8 {
+    animation: d8 2s infinite;
+}
+
+.d9 {
+    animation: d9 2s infinite;
+}
+
+@keyframes d1 {
+  10% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes d2 {
+  20% {
+    opacity: 0.5;
+  }
+  30% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes d3 {
+  30% {
+    opacity: 0.5;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes d4 {
+  40% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes d5 {
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes d6 {
+  60% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes d7 {
+  70% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes d8 {
+  80% {
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes d9 {
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.nona {
+  animation: none;
+}
